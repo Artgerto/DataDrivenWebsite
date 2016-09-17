@@ -1,0 +1,46 @@
+/* put your css code here */
+
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+}
+
+.large-img{
+  max-width:100%;
+}
+
+.thumbnail,.nav, .large-img, .crop-img{
+  border-radius: 10px;
+  padding-top:5px;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    text-align: center
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#menu.col-sm-4{
+  max-height: 370px;
+  height: 370px;
+}
+
+ .box.active,
+ .box:active,
+ .box.focus,
+ .box:focus,
+ .box:hover {
+   background-color: rgba(172, 172, 172, .3)
+ }
